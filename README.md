@@ -2,12 +2,12 @@
 Modify intermediate results in pipeline
 
 ## API
-```
+```ts
 thru(hander: (event) => Event | Pomise<Event>)
 ```
 
 ## EXAMPLE
-```
+```js
 pipelines["test"] = [
     glob({ basePath: "src" }, "**/*.ts"),
     thru(event => {
