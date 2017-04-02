@@ -1,4 +1,6 @@
 # sigh-thru
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/unlight/sigh-thru.svg)](https://greenkeeper.io/)
 Modify intermediate results in pipeline
 
 ## API
